@@ -1,0 +1,32 @@
+[
+    {
+      "username": "ishaq8283@gmail.com",
+      "password": "Test@123",
+      "user" : "first user",
+      "products": [
+        {
+          "name": "ZARA COAT 3",
+          "quantity": 1
+        },
+        {
+          "name": "ADIDAS ORIGINAL",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "username": "ishaq8283@gmail.com",
+      "password": "Test@123",
+      "user" : "second user",
+      "products": [
+        {
+          "name": "ZARA COAT 3",
+          "quantity": 1
+        },
+        {
+          "name": "ADIDAS ORIGINAL",
+          "quantity": 2
+        }
+      ]
+    }
+  ]

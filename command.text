@@ -1,0 +1,13 @@
+npx playwright test --reporter=allure-playwright
+npx playwright test --grep smoke
+
+npm install --save-dev allure-playwright
+npm install -g allure-commandline
+
+ npx playwright test --reporter=allure-playwright
+ 
+allure generate ./allure-results --clean
+allure open ./allure-report
+
+npx allure generate allure-results --clean      
+>> npx allure open
