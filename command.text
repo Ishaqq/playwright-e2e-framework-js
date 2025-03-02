@@ -9,5 +9,14 @@ npm install -g allure-commandline
 allure generate ./allure-results --clean
 allure open ./allure-report
 
-npx allure generate allure-results --clean      
->> npx allure open
+git init
+
+npm install multiple-cucumber-html-reporter --save-dev
+npm install @cucumber/cucumber --save-dev
+
+"scripts": {
+  "test": "cucumber-js --format json:reports/cucumber_report.json"
+}
+
+npm test
+node generateReport.js

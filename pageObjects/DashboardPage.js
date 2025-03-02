@@ -14,6 +14,7 @@ class DashboardPage{
         for (let i = 0; i < count; ++i) {
          const product=await this.productNames.nth(i).textContent();
          console.log(product);
+         console.log(productToSelect);
         //    if ( product === productName) {
         //       //add to cart
         //       await this.products.nth(i).locator("text= Add To Cart").click();

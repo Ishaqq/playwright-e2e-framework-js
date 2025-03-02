@@ -18,11 +18,11 @@ const config = defineConfig({
  expect: {
   timeout:5000,
  },
- // reporter: 'html',
- reporter: [
-  ['line'], // Console output
-  ['allure-playwright'] // Allure report
-],
+  reporter: 'html',
+//  reporter: [
+//   ['line'], // Console output
+//   ['allure-playwright'] // Allure report
+// ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     browserName:'chromium',

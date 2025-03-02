@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "regression" : "npx playwright test",
-    "smoke" : "npx playwright test --grep @smoke"
+    "regression": "npx playwright test",
+    "smoke": "npx playwright test --grep @smoke",
+    "test": "cucumber-js --format json:reports/cucumber_report.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.4",
-    "allure-playwright": "^3.2.0"
+    "allure-playwright": "^3.2.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "multiple-cucumber-html-reporter": "^3.9.2"
   }
 }
