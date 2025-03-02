@@ -20,6 +20,10 @@ report.generate({
     data: [
       { label: "Project", value: "Ecommerce App" },
       { label: "Execution Date", value: new Date().toLocaleString() },
+      { label: "Tester", value: "Muhammad Ishaq" },  // ✅ Fixed key "label"
+      { label: "Environment", value: "Staging" },     // ✅ Add environment details
+      { label: "Browser", value: "Chrome" },         // ✅ Add browser details
+      { label: "Platform", value: process.platform }
     ],
   },
   displayDuration: true,
